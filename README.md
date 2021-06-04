@@ -1,6 +1,6 @@
 # Stroke Analysis
 
-## Background: According to the CDC (https://www.cdc.gov/stroke/facts.htm), 1 in 6 cardiovascular disease related deaths are due to stroke. Someone dies of stroke every 4 minutes, and billions are spent on health care costs related to stroke each year. 
+Background: According to the CDC (https://www.cdc.gov/stroke/facts.htm), 1 in 6 cardiovascular disease related deaths are due to stroke. Someone dies of stroke every 4 minutes, and billions are spent on health care costs related to stroke each year. 
 
 Our goal was to create a machine learning model that would predict the likelihood of stroke based on a given set of parameters, including known risk factors. We used the stroke prediction dataset from Kaggle (https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to examine possible models. Using pandas in jupyter notebooks, we evaluated the following models: KNN, Random Forest, Logistic Regression, SVM, Decision Tree, Gaussian Naive Bayes, Neural Networks, and Gradient Boosting. Jupyter notebooks for each model can be referenced, as the names of the model correspond with what was examined inside of the notebook. We ultimately selected the Gaussian Naive Bayes model as our best performing model (GaussianNaiveBayes_FinalModel.ipynb).
 
