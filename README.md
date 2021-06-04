@@ -4,7 +4,7 @@
 
 Our goal was to create a machine learning model that would predict the likelihood of stroke based on a given set of parameters, including known risk factors. We used the stroke prediction dataset from Kaggle (https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) to examine possible models. Using pandas in jupyter notebooks, we evaluated the following models: KNN, Random Forest, Logistic Regression, SVM, Decision Tree, Gaussian Naive Bayes, Neural Networks, and Gradient Boosting. Jupyter notebooks for each model can be referenced, as the names of the model correspond with what was examined inside of the notebook. We ultimately selected the Gaussian Naive Bayes model as our best performing model (GaussianNaiveBayes_FinalModel.ipynb).
 
-A tableau dashboard with a predictive questionnaire was created based on our dataset and model (StrokProdiction.twbx). This connects to our Gaussian Naive Bayes Final Model jupyter notebook via a Tabpy server.
+A tableau dashboard with a predictive questionnaire was created based on our dataset and model (StrokePrediction.twbx). This connects to our Gaussian Naive Bayes Final Model jupyter notebook via a Tabpy server.
 
 **Instructions:**
 1. Start Tabpy server(Use the command *pip install tabpy-server* in the command prompt to install the Tabpy and then type *Tabpy* to start the server)
