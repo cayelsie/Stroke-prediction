@@ -6,6 +6,7 @@ Our goal was to create a machine learning model that would predict the likelihoo
 
 A tableau dashboard with a predictive questionnaire was created based on our dataset and model (StrokePrediction.twbx). This connects to our Gaussian Naive Bayes Final Model jupyter notebook via a Tabpy server.
 
+![](images/predictive.png)
 **Instructions:**
 1. Start Tabpy server(Use the command *pip install tabpy-server* in the command prompt to install the Tabpy and then type *Tabpy* to start the server)
 2. Start Jupyter notebook and run the GaussianNaiveBayes_FinalModel.ipynb, which is the jupyter notebook with the final model.
